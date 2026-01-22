@@ -19,9 +19,18 @@ This project provides a two-layered verification process:
 * `prototype.py`: The main web dashboard for user interaction.
 * [cite_start]`news.csv`: The training dataset containing labeled news articles[cite: 2].
 * [cite_start]`predict.py`: Core logic for generating predictions from the saved model.
-
-## ⚙️ Installation & Setup
-
-1. **Install Requirements**
-   ```bash
-   pip install -r requirements.txt
+graph TD
+    A[User Input: Paste News Text] --> B{Preprocessing Layer}
+    B -->|Clean & Stem| C[Feature Extraction: TF-IDF]
+    
+    subgraph Hybrid Detection Engine
+    C --> D[Local ML: Logistic Regression]
+    A --> E[Real-time AI: Gemini 2.5/3]
+    E --> F[Google Search Grounding]
+    end
+    
+    D --> G[Local Verdict: REAL/FAKE]
+    F --> H[Live Verification Report]
+    
+    G & H --> I[Final Dashboard Output]
+   
