@@ -42,6 +42,20 @@ var j = /^[A-Za-z0-9]+$/; // j is a regular expression variable
     let b = 'this'; // b is a local variable
     console.log(b)
 }
+
+// let:- let is a local variable and can not be redeclare. it is a block level variable.
+let c = "harry";
+let d= null;
+let e= true;
+let f = [1,2,3,4,5];
+let g = {a:1, b:2, c:3};
+// let g = 6; // throws an error because g is already declared.
+console.log(c)
+
+// const:- const is a local variable and can not be redeclare. it is a block level variable.
+const author = 'harry';
+// author = 5 // throws an error because const author is already declared.
+console.log(author)
 console.log(b)
 
 
