@@ -25,4 +25,24 @@ console.log(a)
 
 // var:- var is a global variable and can be reassigned.
 
+// var:- var is a global variable and can be reassigned.
+
+var a = 45; // a is a global variable
+var b = "harry"; // b is a local variable
+var c = null; // c is a null variable
+var d = undefined; // d is a undefined variable
+var e= true; // e is a boolean variable
+var f = [1,2,3,4,5]; // f is a array variable
+var g = {a:1, b:2, c:3}; // g is a object variable
+var h = function(){}; // h is a function variable
+var i = new Date(); // i is a date variable
+var j = /^[A-Za-z0-9]+$/; // j is a regular expression variable
+
+{
+    let b = 'this'; // b is a local variable
+    console.log(b)
+}
+console.log(b)
+
+
 
