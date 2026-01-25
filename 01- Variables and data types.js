@@ -4,3 +4,7 @@ console.log(age);
 
 name="Aniket Yadav";
 consile.log("name");
+
+let a = 10; // let is used to declare a variable that can be reassigned
+const b = 20; // const is used to declare a variable that cannot be reassigned
+console.log(a)
