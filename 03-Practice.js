@@ -27,4 +27,16 @@ const a1={
 a1['friend']="shubham" // this will not throw an error because we are not changing the object but adding a new key to it.
 
 console.log(a1)
+// Q5:- write a JS program to create a word meaning dictionary of 5 words.
+
+const dict={
+  apple:"a fruit",
+  book:"a source of knowledge",
+  pen:"a writing instrument",
+  table:"a piece of furniture",
+  chair:"a piece of furniture"
+}
+console.log(dict)
+console.log(dict.apple)
+
 
