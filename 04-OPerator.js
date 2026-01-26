@@ -47,3 +47,10 @@ console.log("a ** b =",a2**b2)
 console.log("a % b =",a2%b2) // moduolo operator:- gives the remainder of the division.
 console.log("++a =",++a2) // increment operator:- increases the value of the variable by 1.
 console.log("a++ =",a2++) // increment operator:- increases the value of the variable by 1.
+// difference between ++a and a++ is that ++a increases the value of the variable by 1 and then returns the value of the variable. while a++ returns the value of the variable and then increases the value of the variable by 1
+
+console.log("--a =",--a2) // decrement operator:- decreases the value of the variable by 1.
+console.log("a-- =",a2--) // decrement operator:- decreases the value of the variable by 1.
+console.log("a =",a2)
+console.log("a-- =",a2--)
+
