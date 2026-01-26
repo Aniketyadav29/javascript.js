@@ -12,5 +12,19 @@ let f=Symbol("I am a nice symbol")
 let g=undefined  // let g; // both are same
 console.log(a,b,c,d,e,f,g) // null, 345, true, 570n, harry, Symbol(I am a nice symbol), undefined
 console.log(typeof d)
-console.log(typeof c)  
+console.log(typeof c)
+// Non-Primitive Data Types:- Objects, Arrays, Functions, Dates, etc.
+
+// Objects in JavaScript:- objects are key value pairs, they are used to store data in a structured way.
+// Objects are non-primitive data types and are used to store collections of data.
+
+// objects in JS :
+const item={
+  "harry":true,
+  "shubh":false,
+  "lovish":67,
+  "rohan":undefined
+}
+console.log(item["harry"]) 
+console.log(item["rohan"])
 
