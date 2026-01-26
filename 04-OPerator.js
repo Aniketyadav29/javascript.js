@@ -53,4 +53,12 @@ console.log("--a =",--a2) // decrement operator:- decreases the value of the var
 console.log("a-- =",a2--) // decrement operator:- decreases the value of the variable by 1.
 console.log("a =",a2)
 console.log("a-- =",a2--)
+// Assignment Operators:- =, +=, -=, *=, /=, %=, **=
+
+let x=1;
+x+=5 // x=x+5
+console.log(x)
+x-=5 // x=x-5
+console.log(x)
+
 
