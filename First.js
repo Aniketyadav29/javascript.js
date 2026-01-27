@@ -208,7 +208,7 @@ console.log("cop1===cop2",cop1===cop2)
 console.log("cop1!==  cop2",cop1!==cop2 )
 console.log("cop1>cop2",cop1>cop2)
 
-Logical Operators:- &&, ||, ! :- and, or, not they  are used to combine multiple conditions.used on  boolean values.
+// Logical Operators:- &&, ||, ! :- and, or, not they  are used to combine multiple conditions.used on  boolean values.
 
 let y=6;
 let z=7;
@@ -216,8 +216,27 @@ console.log(y<z && y==6 )
 console.log(y>z || y==6 )
 console.log(!false)
 console.log(!true)
+// Comments in JavaScript:- Comments are used to make the code more readable and understandable. They are ignored by the JavaScript engine.
 
+// Single line comment:- // this is a single line comment.
+/* Multi line comment:- this is a multi line comment. */ 
 
+// Conditional Expressions:- if, else, else if, switch, ternary operator.
+
+//if else statement:- if the condition is true then the code inside the if block will be executed. if the condition is false then the code inside the else block will be executed.
+
+// prompt:- prompt is used to take input from the user.
+// let age=prompt("Enter your age")
+// Alert:- alert is used to display a message to the user.
+
+let a =prompt("Hey whats your age?")
+a=Number.parseInt(a) // converting the string to a number.
+if(a>0){
+  alert("This is a valid age")
+}
+else{
+    alert("This is an invalid age")
+}
 
 
 
