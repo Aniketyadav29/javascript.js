@@ -29,3 +29,27 @@ else if(age<18 && age>=9){
 else{
   alert("You can now drive as you are above 18")
 }
+
+// type 2:-
+let age1=23
+age1=Number.parseInt(age1)
+if(age1<0){
+  console.log("This is an invalid age1")
+}
+else if(age1<9){
+  console.log("You are a kid and you cannot even think of driving")
+}
+else if(age1<18 && age1>=9){
+  console.log("You are a kid and you can think of driving after 18")
+}
+else{
+  console.log("You can now drive as you are above 18")
+}
+/* switch statement:- switch statement is used to perform different actions based on different conditions. */
+
+
+// Ternary Operator:- condition ? expr1 : expr2 :- if the condition is true then expr1 will be executed. if the condition is false then expr2 will be executed.
+
+// console.log("You can", (a<18? "not drive":"drive"))
+
+
