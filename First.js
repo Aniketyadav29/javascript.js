@@ -255,6 +255,23 @@ else{
   alert("You can now drive as you are above 18")
 }
 
+// type 2:-
+let age1=23
+age1=Number.parseInt(age1)
+if(age1<0){
+  console.log("This is an invalid age")
+}
+else if(age1<9){
+  console.log("You are a kid and you cannot even think of driving")
+}
+else if(age1<18 && age1>=9){
+  console.log("You are a kid and you can think of driving after 18")
+}
+else{
+  console.log("You can now drive as you are above 18")
+}
+
+
 
 
 
