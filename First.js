@@ -238,6 +238,9 @@ else{
     alert("This is an invalid age")
 }
 
+/* if else ladder:- if the first condition is true then the code inside the if block will be executed. if the first condition is false then the code inside the else if block will be executed. if the first condition is false and the second
+condition is true then the code inside the else if block will be executed. if the first condition is false and the second condition is false then the code inside the else block will be executed. */
+
 
 
 
