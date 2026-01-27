@@ -78,4 +78,10 @@ console.log(y>z || y==6 )
 console.log(!false)
 console.log(!true)
 
+// Comments in JavaScript:- Comments are used to make the code more readable and understandable. They are ignored by the JavaScript engine.
+
+// // Single line comment:- // this is a single line comment.
+/* Multi line comment:- this is a multi line comment. */ 
+
+
 
