@@ -61,5 +61,21 @@ console.log(x)
 x-=5 // x=x-5
 console.log(x)
 // Comparison Operators:- ==, ===, !=, !==, >, <, >=, <=
+let cop1=6;
+let cop2=7;
+console.log("cop1==cop2",cop1==cop2)
+console.log("cop1!=cop2",cop1!=cop2 )
+console.log("cop1===cop2",cop1===cop2)
+console.log("cop1!==  cop2",cop1!==cop2 )
+console.log("cop1>cop2",cop1>cop2)
+
+// Logical Operators:- &&, ||, ! :- and, or, not they  are used to combine multiple conditions.used on  boolean values.
+
+let y=6;
+let z=7;
+console.log(y<z && y==6 )
+console.log(y>z || y==6 )
+console.log(!false)
+console.log(!true)
 
 
