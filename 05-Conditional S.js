@@ -12,3 +12,20 @@ if(a>0){
 else{
     alert("This is an invalid age")
 }
+
+/* if else ladder:- if the first condition is true then the code inside the if block will be executed. if the first condition is false then the code inside the else if block will be executed. if the first condition is false and the second
+condition is true then the code inside the else if block will be executed. if the first condition is false and the second condition is false then the code inside the else block will be executed. */
+let age=prompt("Enter your age")
+age=Number.parseInt(age)
+if(age<0){
+  alert("This is an invalid age")
+}
+else if(age<9){
+  console.log("You are a kid and you cannot even think of driving")
+}
+else if(age<18 && age>=9){
+  alert("You are a kid and you can think of driving after 18")
+}
+else{
+  alert("You can now drive as you are above 18")
+}
