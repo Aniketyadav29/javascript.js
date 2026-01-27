@@ -198,6 +198,17 @@ x-=5 // x=x-5
 console.log(x)
 
 
+// Comparison Operators:- ==, ===, !=, !==, >, <, >=, <=
+
+let cop1=6;
+let cop2=7;
+console.log("cop1==cop2",cop1==cop2)
+console.log("cop1!=cop2",cop1!=cop2 )
+console.log("cop1===cop2",cop1===cop2)
+console.log("cop1!==  cop2",cop1!==cop2 )
+console.log("cop1>cop2",cop1>cop2)
+
+
 
 
 
