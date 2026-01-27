@@ -270,7 +270,24 @@ else if(age1<18 && age1>=9){
 else{
   console.log("You can now drive as you are above 18")
 }
+/* switch statement:- switch statement is used to perform different actions based on different conditions. */
 
+
+// Ternary Operator:- condition ? expr1 : expr2 :- if the condition is true then expr1 will be executed. if the condition is false then expr2 will be executed.
+
+console.log("You can", (a<18? "not drive":"drive"))
+console.log("You can", (a<18? "not drive":"drive"))
+
+/* Practice Set:- */
+// Q1:- use logical operators to find whether the age of a person lies between 10 and 20?
+let age1=prompt("What is your age?")
+age1=Number.parseInt(age1)
+if(age1>10 && age1<20){
+  console.log("Your age lies between 10 and 20")
+}
+else{
+   console.log("Your age does not lies between 10 and 20")
+}
 
 
 
