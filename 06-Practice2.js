@@ -7,3 +7,5 @@ if(age1>10 && age1<20){
 else{
    console.log("Your age does not lies between 10 and 20")
 }
+
+// write a java script program to find whether a number is divisible by 2 and 3.
