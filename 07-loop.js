@@ -8,3 +8,15 @@
 // for of  loop:- for of loop is used to iterate over the elements of an array.
 
 // for in loop:- for in loop is used to iterate over the properties of an object. 
+//Example:-
+for(let i=0; i<100; i++){
+  console.log(i)
+}
+
+//Example:-
+
+for(let i=0; i<500; i++){
+  console.log(i+1)
+}
+
+//Example:-
