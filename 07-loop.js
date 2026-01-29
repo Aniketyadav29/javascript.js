@@ -12,8 +12,23 @@
 for(let i=0; i<100; i++){
   console.log(i)
 }
+//Example:-
+
+for(let i=0; i<500; i++){
+  console.log(i+1)
+}
 
 //Example:-
+
+let sum=0
+// let n=prompt("Enter the value of n")
+let n =12
+// n=Number.parsingInt(n)
+for(let i=0;i<n;i++){
+  sum+=(i+1)
+}
+console.log(" sum of first " + n + " Natural numbers is " + sum )
+
 
 for(let i=0; i<500; i++){
   console.log(i+1)
