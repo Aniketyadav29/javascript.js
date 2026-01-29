@@ -71,4 +71,33 @@ for(let a in obj)
   console.log("Marks of " + a +" are " + obj[a])
 // for of loop:- for of loop is used to iterate over the elements of an array.
 
+//Example:-
+
+for(let b of "Harry")
+   console.log(b)
+/* while loop:- while loop is used to execute a block of code multiple times. it is used when the number of iterations is not known. */
+// Example:-
+let n=prompt("Enter the value of n")
+n=Number.parseInt(n)
+let n=10
+let i=0
+while(i<n){
+    console.log(i)
+   i++
+}
+
+// Do while Loop:-
+
+// let m=prompt("Enter the value of n")
+// m=Number.parseInt(n)
+let m=15
+let j=0
+do{
+    console.log(j)
+    j++
+}
+    while(j<m)
+
+
+
 
