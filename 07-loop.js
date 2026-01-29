@@ -58,3 +58,17 @@ for(let i=0; i<500; i++){
 }
 
 //Example:-
+
+//Example:-
+
+let obj={
+  Harry:90,
+  Shubh:45,
+  shivika:67,
+  anupam:89
+}
+for(let a in obj)
+  console.log("Marks of " + a +" are " + obj[a])
+// for of loop:- for of loop is used to iterate over the elements of an array.
+
+
