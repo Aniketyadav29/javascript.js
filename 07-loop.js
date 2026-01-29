@@ -38,6 +38,19 @@ for(let i=0; i<n; i++){
 }
 console.log("sum of first " + n + " Natural numbers is " + sum)
 
+/* for in loop:- for in loop is used to iterate over the properties of an object. */
+//Example:-
+
+let obj={
+  Harry:90,
+  Shubh:45,
+  shivika:67,
+  anupam:89
+}
+for(let a in obj)
+  console.log("Marks of " + a +" are " + obj[a])
+
+
 
 
 for(let i=0; i<500; i++){
