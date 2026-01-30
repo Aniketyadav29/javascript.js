@@ -25,3 +25,10 @@ console.log("Average of v and w is ", avg(v,w))
 console.log("Average of u and w is ", avg(u,w))
 
 // Example:-
+const  sum=(p,q)=>{
+    return p+q
+}
+
+console.log(n)
+console.log(sum(9,7))
+console.log(sum(100,9))
