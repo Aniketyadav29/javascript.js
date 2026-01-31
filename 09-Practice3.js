@@ -11,3 +11,13 @@ let obj={
 for(let a in obj){
      console.log("Marks of " + a +" are " + obj[a])
 }
+
+// write  a program to print "try again" until the user enters the correct number.
+let cn=43
+let i
+while(i!=cn){
+    console.log("Try again")
+    i=prompt("Enter a number")
+}
+console.log("You have entered a correct number")
+
