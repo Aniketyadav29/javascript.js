@@ -7,3 +7,17 @@ let friend='Prakash'
 console.log(friend.length)
 console.log(friend[0])
 // Template literals:- Template literals are used to create strings. they are used to create strings with embedded expressions. they are used to create multi-line strings. they are used to create strings with tags.
+// Example:-
+let boy1="Pramod"
+let boy2="Nikhil"
+// Nikhil is a friend of Pramod
+let sentence=`${boy2} is a friend of ${boy1}`
+console.log(sentence)
+
+// Example:-
+
+let  boy3="Aniket"
+let boy4="Anupam"
+// Anuoam is a friend of Aniket
+let sentence1=`${boy3} is a friend of ${boy4}`
+console.log(sentence1)
