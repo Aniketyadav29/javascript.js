@@ -50,6 +50,11 @@ console.log(name1.replace("Aniket","Anupam"))
 console.log(name1.concat(" is a friend of ",name1))
 console.log(friend)
 console.log(friend.trim())
+// Quick Quiz:- use a for loop to print a string.
+let name2="Aniket"
+for(let i=0; i<name2.length; i++){
+    console.log(name2[i])
+}
 
 
 
