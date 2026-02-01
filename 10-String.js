@@ -52,3 +52,5 @@ console.log(friend)
 console.log(friend.trim())
 
 
+
+
