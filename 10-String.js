@@ -21,3 +21,15 @@ let boy4="Anupam"
 // Anuoam is a friend of Aniket
 let sentence1=`${boy3} is a friend of ${boy4}`
 console.log(sentence1)
+// Escape Sequence Characters:- Escape sequence characters are used to insert special characters in a string. they are used to insert quotes in a string. they are used to insert new lines in a string. they are used to insert tabs in a string.
+
+// Example:-
+let fruit='Bana\'na'
+console.log(fruit.length)
+console.log(fruit)
+
+// Example:-
+let fruit1='Bana"\r na'
+console.log(fruit1.length)
+console.log(fruit1)
+
